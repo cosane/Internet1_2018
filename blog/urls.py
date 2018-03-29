@@ -22,3 +22,4 @@ urlpatterns = [
     url(r'^$', home_view),
     url(r'^post/', include('post.urls')),
 ]
+

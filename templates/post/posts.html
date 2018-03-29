@@ -1,0 +1,10 @@
+<html>
+    <head></head>
+    <body>
+        <h1>YENİ SAYFA</h1>
+        <ul>{% for sıradaki in posts %}
+            <li><a href="{{ sıradaki.get_absolute_url }}">{{sıradaki.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
